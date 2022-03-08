@@ -3,7 +3,7 @@ Through its Bug Bounty Program, which allows the Ethereum Foundation (EF) to coo
 
 While, for example, the Go Ethereum Team have a public Vulnerability disclosure page (parts of which is being used here) and have published vulnerability disclosures for quite some time already, there has not been a coordinated publishing of vulnerabilities for all clients under the scope of the Bug Bounty Program.
 
-Since the creation of the [Execution Layer Bug Bounty Program](https://bounty.ethereum.org) and the [Consensus Layer Bug Bounty Program](https://eth2bounty.ethereum.org), the EF has paid out rewards for multiple reported vulnerabilities.
+Since the creation of the [Execution Layer Bug Bounty Program](https://bounty.ethereum.org) and the [Consensus Layer Bug Bounty Program](https://eth2bounty.ethereum.org), the EF has paid out rewards for many reported vulnerabilities.
 
 Most of the vulnerabilities were not previously disclosed publicly, but we have now been [publishing vulnerabilities on GitHub](disclosures/), up until the latest hard fork on each layer.
 
@@ -15,7 +15,7 @@ We aim to further improve the disclosure process, while also attempting to find 
 
 
 #### About disclosures
-Traditionally in software, it is often expected for security vulnerabilities to be immediately announced, thus giving operators an opportunity to take protective measure against attackers.
+Traditionally in software, it is expected for security vulnerabilities to be immediately announced, thus giving operators an opportunity to take protective measure against attackers.
 
 Vulnerabilies typically take two forms:
 1. Vulnerabilies that, if exploited, harm the software operator. In the case of an execution layer client or consensus layer client, examples would be:
@@ -31,9 +31,9 @@ In most cases so far, vulnerabilities in the execution or consensus layer have b
 
 
 #### Why silent patches
-In the case of Ethereum, node operators often require a long lead time (weeks, months) to update software even to a scheduled hard fork. If a release publicly contains important consensus or DoS fixes, an attacker may attempt to execute the public vulnerability before operators have adequate time to upgrade. Delaying a potential attacker by obfuscating a vulnerability fix contained in a release in an effort to gain heard immunity in many cases is worth the temporary loss of transparency.
+In the case of Ethereum, node operators often require a long lead time (weeks, months) to update software even for a scheduled hard fork. If a release publicly contains important consensus or DoS fixes, an attacker may attempt to execute the public vulnerability before operators have adequate time to upgrade. Delaying a potential attacker by obfuscating a vulnerability fix contained in a release in an effort to gain heard immunity in many cases is worth the temporary loss of transparency.
 
-The primary goal for the EF is the health of the Ethereum network as a whole, and the decision as to when to publish details about a serious vulnerability boils down to minimizing the risk and/or impact of discovery and exploitation.
+The primary goal for the EF in managing this program is the health of the Ethereum network as a whole. Thus, the decision as to when to publish details about a serious vulnerability boils down to minimizing the risk and/or impact of discovery and exploitation.
 
 
 ## Ethereum Foundation Public Disclosure Timelines
