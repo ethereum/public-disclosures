@@ -17,12 +17,12 @@ We aim to further improve the disclosure process, while also attempting to find 
 #### About disclosures
 Traditionally in software, it is expected for security vulnerabilities to be immediately announced, thus giving operators an opportunity to take protective measure against attackers.
 
-Vulnerabilies typically take two forms:
-1. Vulnerabilies that, if exploited, harm the software operator. In the case of an execution layer client or consensus layer client, examples would be:
+Vulnerabilities typically take two forms:
+1. Vulnerabilities that, if exploited, harm the software operator. In the case of an execution layer client or consensus layer client, examples would be:
     * A bug that allow remote reading or writing of OS files
     * Remote command execution
     * Bugs that leak cryptographic keys
-2. Vulnerabilies that, if exploited, harm the Ethereum Network. In the case of the execution layer or consensus layer, examples would be:
+2. Vulnerabilities that, if exploited, harm the Ethereum Network. In the case of the execution layer or consensus layer, examples would be:
     * Consensus vulnerabilities which may cause a chain split
     * Denial-of-service during block processing, whereby a malicious transaction could cause the execution or consensus-portion of the network to crash
     * Denial-of-service via p2p networking, whereby portions of the network could be made inaccessible due to crashes or resource consumption
